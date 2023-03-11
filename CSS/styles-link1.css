@@ -1,0 +1,99 @@
+input[type=text]{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 320px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+input[type=password]{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 270px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 5px 0 0 5px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: none;
+}
+.show{
+    height: 34px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: none;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+    font-family: 'Robotic',sans-serif;
+}
+label{
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Robotic',sans-serif;
+    color: gray;
+}
+.agree{
+    font-size: 13px;
+    font-family: 'Robotic',sans-serif;
+    margin-left: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+.join{
+    width: 330px;
+    height: 45px;
+    margin-left: 15px;
+    border-radius: 50px;
+    transform: translateY(-10px);
+    border: 1px solid rgb(15, 99, 209);
+    background-color: rgb(15, 99, 209);
+    color: white;
+    font-size: 20px;
+}
+.line{
+    border: 1px solid gray;
+}
+.or{
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    font-family: 'Robotic',sans-serif;
+    width: 60px;
+    height: 30px;
+    background-color: #fff;
+}
+.google{
+    width: 290px;
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 35px;
+    position: relative;
+    text-align: center;
+    border-radius: 50px;
+    transform: translateY(-10px);
+    border: 1px solid gray;
+    color: black;
+    font-size: 20px;
+}
+.alr{
+    font-size: 18px;
+    font-family: 'Robotic',sans-serif;
+    text-align: center;
+}
+.anc{
+    text-decoration: none;
+    color: rgb(3, 75, 182);
+}
+.anc:hover{
+    text-decoration: underline;
+}
+.join:hover{
+    background-color: rgb(11, 77, 163);
+}
+.google:hover{
+    background-color: #e2e0e0;
+}
